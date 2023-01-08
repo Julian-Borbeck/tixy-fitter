@@ -1,5 +1,5 @@
 # tixy-fitter
-Python script to fit sets of polynomials to images to turn the images into tixy compatible functions
+Python script to fit sets of polynomials to images to turn the images into tixy compatible functions.
 
 ## Overview
 This repository contains a script written for the course Praktische Informatik 1: Deklarative Programmierung.
@@ -17,6 +17,8 @@ Please open an issue if you find any errors or unexpected behavior. Please make 
 
 
 ## Requirements
+This script was developed using Python version 3.9.2
+
 The following packages are required
 - pillow
 - numpy
