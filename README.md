@@ -31,13 +31,12 @@ The script requires a black and white video split into frames.
 
 ### Parameters
 
-directory_in (string): Input directory
-directory_out (string): Ouptut directory
-rkt_out (string): Filename of Racket file to generate
-
-func_name (string): Function name of the Racket function to generate (Signature t i x y )
-n_images (integer): Number of Images in the Input directory, needed for the modulo operator to repeat the animation
-tixy_size (integer): Size of the Tixy Grid 
-render (boolean): if True, a preview of the process is rendered to the output dir for each image
-maxfev_ (integer): number of iterations to fit for each function
+- directory_in (string): Input directory
+- directory_out (string): Ouptut directory
+- rkt_out (string): Filename of Racket file to generate
+- func_name (string): Function name of the Racket function to generate (Signature t i x y )
+- n_images (integer): Number of Images in the Input directory, needed for the modulo operator to repeat the animation
+- tixy_size (integer): Size of the Tixy Grid 
+- render (boolean): if True, a preview of the process is rendered to the output dir for each image
+- maxfev_ (integer): number of iterations to fit for each function
 
